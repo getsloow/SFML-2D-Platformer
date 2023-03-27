@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Proiecttttttt" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Proiecttttttt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../../../../../SFML-2.5.1/include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+					<Add directory="../../../../../../SFML-2.5.1/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Proiecttttttt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../../../../../SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+			<Add library="sfml-audio" />
+			<Add library="sfml-network" />
+			<Add directory="../../../../../SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="Proiect.cpp" />
+		<Unit filename="include/Resources.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="include/cpp/Bullet.cpp" />
+		<Unit filename="include/cpp/Char_select.cpp" />
+		<Unit filename="include/cpp/Enemy.cpp" />
+		<Unit filename="include/cpp/Ground.cpp" />
+		<Unit filename="include/cpp/Healthpoints.cpp" />
+		<Unit filename="include/cpp/Level_select.cpp" />
+		<Unit filename="include/cpp/Menu.cpp" />
+		<Unit filename="include/cpp/Platform.cpp" />
+		<Unit filename="include/cpp/Player.cpp" />
+		<Unit filename="include/header/Bullet.hpp" />
+		<Unit filename="include/header/Char_select.hpp" />
+		<Unit filename="include/header/Enemy.hpp" />
+		<Unit filename="include/header/Entity.hpp" />
+		<Unit filename="include/header/Ground.hpp" />
+		<Unit filename="include/header/Healthpoints.hpp" />
+		<Unit filename="include/header/Hitbox.hpp" />
+		<Unit filename="include/header/Level_select.hpp" />
+		<Unit filename="include/header/Platform.hpp" />
+		<Unit filename="include/header/background.hpp" />
+		<Unit filename="include/header/menu.hpp" />
+		<Unit filename="include/header/player.hpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
